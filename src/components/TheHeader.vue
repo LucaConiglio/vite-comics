@@ -31,13 +31,23 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
+
 header{
-  padding: 2rem 0;
-}
-  a{
+  padding: 1.8rem 0;
+  img{
+    width: 90px;
+  }
+
+  a {
     text-decoration: none;
     color: black;
     font-weight: 500;
+
+    &:hover {
+      color: blue;
+    }
   }
+}
+  
 </style>
