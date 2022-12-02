@@ -3,9 +3,9 @@
     <div class="container m-auto">
       <nav class="d-flex justify-content-between align-items-center">
         <div>
-          <img src="./dc-logo.png" alt="">
+          <img src="dc-logo.png" alt="">
         </div>
-        <div class="d-flex gap-2">
+        <div class="d-flex gap-4">
           <a href="#">CHARACTERS</a>
           <a href="#">COMICS</a>
           <a href="#">MOVIES</a>
@@ -32,5 +32,12 @@ export default {
 </script>
 
 <style scoped>
-
+header{
+  padding: 2rem 0;
+}
+  a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+  }
 </style>

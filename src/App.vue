@@ -30,6 +30,7 @@ computed : {
 
 <template>
   <TheHeader></TheHeader>
+  <TheMain></TheMain>
 </template>
 
 <style>
