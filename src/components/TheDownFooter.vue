@@ -7,11 +7,8 @@
         </div>
         <div class="d-flex gap-3 align-items-center">
           <span>FOLLOW US</span>
-          <a href="#"><img src="footer-facebook.png" alt=""></a>
-          <a href="#"><img src="footer-twitter.png" alt=""></a>
-          <a href="#"><img src="footer-youtube.png" alt=""></a>
-          <a href="#"><img src="footer-pinterest.png" alt=""></a>
-          <a href="#"><img src="footer-periscope.png" alt=""></a>
+          <a v-for="image in images" href="#"><img :src="image" alt=""></a>
+          
           
 
         </div>
@@ -23,7 +20,9 @@
 <script>
 export default{
   data () {
-
+    return {
+      images : ["footer-facebook.png","footer-twitter.png","footer-youtube.png","footer-pinterest.png","footer-periscope.png",],
+    }
 
 
   }

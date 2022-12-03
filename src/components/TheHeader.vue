@@ -6,16 +6,8 @@
           <img src="dc-logo.png" alt="">
         </div>
         <div class="d-flex gap-4">
-          <a href="#">CHARACTERS</a>
-          <a href="#">COMICS</a>
-          <a href="#">MOVIES</a>
-          <a href="#">TV</a>
-          <a href="#">GAMES</a>
-          <a href="#">COLLECTIBLES</a>
-          <a href="#">VIDEOS</a>
-          <a href="#">FANS</a>
-          <a href="#">NEWS</a>
-          <a href="#">SHOP</a>
+          <a v-for="links in linkHeader" href="#">{{links}}</a>
+          
         </div>
 
       </nav>
@@ -27,6 +19,11 @@
 
 <script>
 export default {
+  data() {
+    return {
+      linkHeader : ["CHARACTERS","COMICS","MOVIES","TV,GAMES","COLLECTIBLES","VIDEOS","FANS","NEWS","SHOP"],
+    }
+  },
   
 }
 </script>

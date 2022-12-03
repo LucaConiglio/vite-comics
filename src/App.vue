@@ -2,10 +2,10 @@
 import TheHeader from './components/TheHeader.vue';
 import TheMain from './components/TheMain.vue';
 import TheFooter from './components/TheFooter.vue';
-import SignUpFooter from './components/SignUpFooter.vue';
+import TheDownFooter from './components/TheDownFooter.vue';
 
 export default {
-  components : {TheHeader, TheMain , TheFooter, SignUpFooter},
+  components : {TheHeader, TheMain , TheFooter, TheDownFooter,},
   data () {
     return {
 
@@ -33,7 +33,7 @@ computed : {
   <TheHeader></TheHeader>
   <TheMain></TheMain>
   <TheFooter></TheFooter>
-  <SignUpFooter></SignUpFooter>
+  <TheDownFooter></TheDownFooter>
 </template>
 
 <style lang="scss">

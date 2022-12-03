@@ -1,32 +1,48 @@
 <script>
 export default {
-  
+  data() {
+    return {
+      merchandise : [
+        {
+          url : "buy-comics-digital-comics.png",
+          title : "DIGITAL COMICS",
+          class : "tablet",
+        },
+        {
+          url : "buy-comics-merchandise.png",
+          title : "DC MERCHANDISE",
+          class : "maglietta",
+        },
+        {
+          url : "buy-comics-subscriptions.png",
+          title : "SUBSCRIPTION",
+          class : "carte",
+        },
+        {
+          url : "buy-comics-shop-locator.png",
+          title : "COMIC SHOP LOCATOR",
+          class : "mappa",
+        },
+        {
+          url : "buy-dc-power-visa.svg",
+          title : "DC POWER VISA",
+          class : "visa",
+        },
+        
+      ]
+    }
+  },
 }
 </script>
 
 <template>
-  <section>
+  <section class="section-merchandise">
     <div class="container d-flex justify-content-around align-items-center gap-3 px-3">
-      <a href="#">
-        <img class="tablet me-2" src="buy-comics-digital-comics.png" alt="">
-        DIGITAL COMICS
+      <a v-for="image in merchandise" href="#">
+        <img :class="image.class" class="me-2" :src="image.url" alt="">
+        {{image.title}}
       </a>
-      <a href="#">
-        <img class="maglietta me-2" src="buy-comics-merchandise.png" alt="">
-        DC MERCHANDISE
-      </a>
-      <a href="#">
-        <img class="carte me-2" src="buy-comics-subscriptions.png" alt="">
-        SUBSCRIPTION
-      </a>
-      <a href="#">
-        <img class="mappa me-2" src="buy-comics-shop-locator.png" alt="">
-        COMIC SHOP LOCATOR
-      </a>
-      <a href="#">
-        <img class="visa me-2" src="buy-dc-power-visa.svg" alt="">
-        DC POWER VISA
-      </a>
+      
 
     </div>
   </section>
@@ -34,7 +50,7 @@ export default {
 
 </template>
 <style scoped lang="scss">
-section{
+.section-merchandise{
   background-color: #0282f9;
   padding: 3.5rem 0;
   

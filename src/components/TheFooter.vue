@@ -31,19 +31,18 @@
       </div>
     </div>
   </section>
-  <SignUpFooter></SignUpFooter>
 </template>
 <script>
 
 
 export default {
     data() {
-        return {
-            dcComics: ["Characters", "Comics", "Movies", "TV", "Games", "Videos", "News"],
-            shop: ["Shop DC", "Shop DC Collectibles"],
-            dc: ["Terms Of Use", "Privacy Policy (News)", "Ad Choices", "Advertising", "Jobs", "Subscriptions", "Talent Workshops", "CPSC Certificates", "Ratings", "Shop Help", "Contacs Us"],
-            sites: ["DC", "MAD Magazine", "DC Kids", "DC Universe", "DC Power Visa"]
-        };
+      return{
+          dcComics: ["Characters", "Comics", "Movies", "TV", "Games", "Videos", "News"],
+          shop: ["Shop DC", "Shop DC Collectibles"],
+          dc: ["Terms Of Use", "Privacy Policy (News)", "Ad Choices", "Advertising", "Jobs", "Subscriptions", "Talent Workshops", "CPSC Certificates", "Ratings", "Shop Help", "Contacs Us"],
+          sites: ["DC", "MAD Magazine", "DC Kids", "DC Universe", "DC Power Visa"],
+      };
     },
 }
 </script>
