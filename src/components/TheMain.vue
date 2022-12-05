@@ -11,7 +11,7 @@
 import TheCardMain from './TheCardMain.vue';
 import TheContacts from './TheContacts.vue';
 export default {
-  components : { TheContacts, TheCardMain, TheCardMain },
+  components : { TheContacts, TheCardMain,  },
 
 }
 </script>

@@ -21,7 +21,7 @@
 export default {
   data() {
     return {
-      linkHeader : ["CHARACTERS","COMICS","MOVIES","TV,GAMES","COLLECTIBLES","VIDEOS","FANS","NEWS","SHOP"],
+      linkHeader : ["CHARACTERS","COMICS","MOVIES","TV" ,"GAMES","COLLECTIBLES","VIDEOS","FANS","NEWS","SHOP"],
     }
   },
   
