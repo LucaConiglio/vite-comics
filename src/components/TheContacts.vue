@@ -52,7 +52,7 @@ export default {
 <style scoped lang="scss">
 .section-merchandise{
   background-color: #0282f9;
-  padding: 3.5rem 0;
+  padding: 2.5rem 0;
   
   a{
     color: white;

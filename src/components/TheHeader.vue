@@ -31,7 +31,7 @@ export default {
 <style scoped lang="scss">
 
 header{
-  padding: 1.8rem 0;
+  padding: 1.2rem 0;
   img{
     width: 90px;
   }

@@ -21,7 +21,7 @@
 export default{
   data () {
     return {
-      images : ["footer-facebook.png","footer-twitter.png","footer-youtube.png","footer-pinterest.png","footer-periscope.png",],
+      images : ["/footer-facebook.png","/footer-twitter.png","/footer-youtube.png","/footer-pinterest.png","/footer-periscope.png",],
     }
 
 

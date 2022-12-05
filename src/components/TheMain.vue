@@ -1,20 +1,26 @@
 <template>
-  <section>
+  <section class="my-section">
     <div class="container">
-      <h3 class="text-white py-4">-->Content goes here&lt--  </h3>
     </div>
   </section>
+  <TheCardMain></TheCardMain>
   <TheContacts></TheContacts>
 </template>
+
 <script>
+import TheCardMain from './TheCardMain.vue';
 import TheContacts from './TheContacts.vue';
 export default {
-  components : {TheContacts},
+  components : { TheContacts, TheCardMain, TheCardMain },
+
 }
 </script>
-<style scoped>
-section{
-  background-color: black;
-  padding: 2rem 0;
+<style scoped lang="scss">
+
+.my-section{
+  background-image: url("./jumbotron.jpg");
+  height: 400px;
+  background-position: top;
+  background-size: cover;
 }
 </style>
